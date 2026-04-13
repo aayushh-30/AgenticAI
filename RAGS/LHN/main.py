@@ -14,7 +14,7 @@ load_dotenv()
 model = init_chat_model("groq:openai/gpt-oss-120b")
 
 # document loading
-loader = PyPDFLoader("./LHN.pdf")
+loader = PyPDFLoader("./LHN.pdf") # to be uploaded by the user
 docs = loader.load()
 
 # splitting the document into chunks

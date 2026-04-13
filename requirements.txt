@@ -15,3 +15,5 @@ requests
 langchain_huggingface
 pypdf
 bs4
+geopy
+numpy
